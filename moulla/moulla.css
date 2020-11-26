@@ -1,14 +1,14 @@
  
 
   *{
-    background: pink;
+    background: yellowgreen;
 }
 
 
 #sidebar{
   float: left;
   width: 29%;
-  font-weight: 18px;
+  font-weight: 19px;
   background-color: grey;
   color: black;
   list-style: none;
