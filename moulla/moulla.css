@@ -1,0 +1,119 @@
+ 
+
+  *{
+    background: pink;
+}
+
+
+#sidebar{
+  float: left;
+  width: 29%;
+  font-weight: 18px;
+  background-color: grey;
+  color: black;
+  list-style: none;
+  position: fixed;
+  height: 100%;
+  width: 20px;
+  z-index: 1;
+  border-radius: solid;
+  margin-bottom: 40px;
+  
+  opacity: 0.9;
+  
+
+}
+
+#sidebar a{
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 14px;
+
+  display: block;
+}
+p{
+  color: black;
+  text-align: left;
+  font-size :bold;
+}
+
+#project,#list,#general{
+  width: 70%;
+  float: right;
+  display: flexbox;
+}
+
+  
+
+
+/* new kaamil  */
+#list{
+  list-style: none;
+  
+  padding: 0.5em;
+  background: white;
+}
+
+#project{
+  padding-left: 0px;
+  background :black;
+  text-align: right;
+  display: flex;
+  
+  
+}
+li{
+  margin: 0.5px;
+  padding: 0.5px;
+  border-radius: 0.24em;
+  box-shadow: 0em 0.25em 0.2em rgba(0,0,0,0,25);
+  flex-grow: 1;
+  background: cadetblue;
+  
+}
+
+#project>input{
+  font-size: 1em;
+  flex-grow: 1;
+  padding: 0.5em;
+  border-top-left-radius:0.25em;
+  border-bottom-right-radius:0.25em;
+  border-top-right-radius: 00.25em;
+  border-bottom-left-radius:0.25em;
+  border: none;
+  
+}
+
+#project>input{
+  text-align: left;
+  color:pink;
+  background: wheat;
+  font-weight: bold;
+  
+}
+#project>button{
+  background:wheat;
+
+
+}
+
+/* #div{
+  backround-clolor:red;
+  height: 63px;
+}
+#noor,span{
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; */
+
+}
+.navbar-toggle>span{
+  float: left;
+}
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
